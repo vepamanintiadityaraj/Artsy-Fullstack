@@ -1,3 +1,12 @@
+Perfect 👍 Thanks for pasting the draft. Let’s clean up and properly format the README.md so that it looks professional, with clickable links and clear structure.
+
+I’ll also include a note for your database folder (database/) and the credentials.json file for the Artsy API.
+
+Here’s the improved version you can copy-paste directly:
+
+⸻
+
+
 # 🎨 Artsy-Fullstack  
 
 A **full-stack web and mobile platform** for exploring, searching, and managing art collections.  
@@ -21,17 +30,20 @@ A **full-stack web and mobile platform** for exploring, searching, and managing 
 - **Database:** MongoDB Atlas  
 - **Deployment:** Google Cloud Platform (GCP)  
 
-🔗 Live demo: [Artsy-Fullstack on GCP]((https://adiartsytwt2.wl.r.appspot.com/))  
+🔗 Live demo: [Artsy-Fullstack on GCP](https://adiartsytwt2.wl.r.appspot.com/)  
 
 ---
 
 ## 📂 Project Structure  
 ```bash
 Artsy-Fullstack/
-├── artsyApp_web/      # React frontend
-├── artsyApp_Mobile/   # Kotlin mobile app
-├── backend/           # Node.js + Express backend
-└── README.md          # Documentation
+├── artsyApp_web/       # React frontend
+├── artsyApp_Mobile/    # Kotlin mobile app
+├── backend/            # Node.js + Express backend
+├── database/           # Database configs & connection
+│   ├── credentials.json   # Artsy API credentials
+│   └── db.js             # MongoDB Atlas connection
+└── README.md           # Documentation
 
 
 ⸻
@@ -54,6 +66,13 @@ Create a .env file inside /backend with:
 MONGO_URI=your-mongodb-atlas-uri
 PORT=5000
 JWT_SECRET=your-secret-key
+
+Also, make sure you have a database/credentials.json file with your Artsy API credentials:
+
+{
+  "client_id": "your-artsy-client-id",
+  "client_secret": "your-artsy-client-secret"
+}
 
 3️⃣ Frontend Setup
 
@@ -88,11 +107,15 @@ npm run test
 
 ⸻
 
-📸 App Demo:- https://drive.google.com/file/d/1f87_GESq4M96L7uMYPPppmkEDMdRGDaj/view?usp=sharing
+📸 App Demo
+
+🎥 Watch Demo on Google Drive
 
 ⸻
 
 👨‍💻 Contributors
 	•	Aditya Raj Vepa – GitHub
+
+⸻
 
 
