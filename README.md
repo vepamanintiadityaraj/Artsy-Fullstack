@@ -1,11 +1,3 @@
-Perfect 👍 Thanks for pasting the draft. Let’s clean up and properly format the README.md so that it looks professional, with clickable links and clear structure.
-
-I’ll also include a note for your database folder (database/) and the credentials.json file for the Artsy API.
-
-Here’s the improved version you can copy-paste directly:
-
-⸻
-
 
 # 🎨 Artsy-Fullstack  
 
